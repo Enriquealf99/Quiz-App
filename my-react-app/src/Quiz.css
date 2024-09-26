@@ -1,0 +1,106 @@
+/* Quiz.css */
+
+/* General App styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Timer styling */
+  .timer {
+    font-size: 1.5rem;
+    color: #f54242; /* Red for urgency */
+    margin-bottom: 20px;
+  }
+  
+  /* Question container */
+  .question-container {
+    background-color: #3e3e3e;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Question text styling */
+  .question-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Options (answers) list */
+  .question-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-container li {
+    margin-bottom: 10px;
+  }
+  
+  .question-container button {
+    background-color: #61dafb;
+    color: #282c34;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .question-container button:hover {
+    background-color: #21a1f1;
+  }
+  
+  /* Result styling */
+  .result-container {
+    font-size: 1.5rem;
+    background-color: #3e3e3e;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .result-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .result-container p {
+    font-size: 1.2rem;
+  }
+
+  
+  /* Styles for the answer options container */
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Gap between the buttons */
+    max-width: 400px; /* Optional: To control the width of the button container */
+    margin: 0 auto; /* Center the buttons horizontally */
+    margin-bottom: 20px;
+  }
+  
+  .options-container button {
+    background-color: #61dafb;
+    color: #282c34;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%; /* Make buttons take up full width in each grid cell */
+  }
+  
+  .options-container button:hover {
+    background-color: #21a1f1;
+  }
+  
